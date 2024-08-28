@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card span {
+    font-size: 12px;
+    color: #888;
+}
+
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-80 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-81 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-82 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-83 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-84 {
+    border: 2px solid #333;
+}
+
+.card-85 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-86 {
+    /* Customize specific shadow here if needed */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-87 {
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
